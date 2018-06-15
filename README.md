@@ -166,7 +166,7 @@ $ gsettings set org.gnome.shell.extensions.dash-to-dock transparency-mode DEFAUL
 
 Para instalar el login screen debemos de dirigirnos a `Gnome look` y buscar el tema `MacOS High Sierra cdm theme`. El link es el siguiente:
 
-1. Link MacOS High Sierra cdm theme: [MACOS HIGH SIERRA cdm theme](MacOS High Sierra cdm theme)
+1. Link MacOS High Sierra cdm theme: [MACOS HIGH SIERRA cdm theme](https://www.gnome-look.org/p/1207015/)
 
 #### Copiar archivos
 
@@ -191,7 +191,7 @@ $ chmod a+x ~/.share/local/nautilus/scripts/
 Finalmente cambiar el wallpaper sobre una imagen con un `click derecho > scripts > SetAsWallpaper`
 
 
-#Creditos 
+# Creditos 
 
 - Adrian Eguez
 - Shivam ashtikar
