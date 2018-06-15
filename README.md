@@ -17,11 +17,11 @@ Descarga e Instalar Ubuntu 18.04
 
 ### 2. Instalar Gnome Tweak Tool
 
-#### a)
+#### a) Ubuntu Software
 
 Buscar en el `Ubuntu Software store` la palabra `Gnome tweaks` e instalar mediante la herramienta. 
 
-#### b)
+#### b) Terminal
 
 Para instalar el paquete `gnome-tweak-tool` se debe de correr el siguiente comando:
 
@@ -33,7 +33,7 @@ $ sudo apt install gnome-tweak-tool
 
 ### 3. Instalar User Themes
 
-Para instalar los usert themes debemos dirigirnos a `gnome extensions` e instalar:
+Para instalar el `User Themes` debemos dirigirnos a `gnome extensions` e instalar:
 
 1. Link User Themes: [USER THEMES](https://extensions.gnome.org/extension/19/user-themes/)
 
@@ -43,7 +43,7 @@ Para instalar los usert themes debemos dirigirnos a `gnome extensions` e instala
 $ sudo apt install chrome-gnome-shell
 ```
 
-### 3. Instalar Tema Gnome-OSC
+### 4. Instalar Tema Gnome-OSC
 
 #### Instalar
 
@@ -63,7 +63,7 @@ Ahora si copiamos `los archivos` en la carpeta `.themes`
 
 Finalmente buscamos en las actividades (activities o programas) `tweaks` y nos dirijimos a la pestaña **Appearance** y cambiamos en `Themes > Applications` al tema preferido.
 
-### 3. Instalar Iconos
+### 5. Instalar Iconos
 
 Para instalar los iconos debemos de dirigirnos a `Gnome look` y buscar el tema `MacOS sierra ct`. El link es el siguiente:
 
@@ -81,4 +81,106 @@ Ahora si copiamos `los archivos` en la carpeta `.icons`
 #### Habilitar el tema con Gnome Tweak 
 
 Finalmente buscamos en las actividades (activities o programas) `tweaks` y nos dirijimos a la pestaña **Appearance** y cambiamos en `Themes > Icons` al tema preferido.
+
+### 6. Instalar Dash to Dock
+
+Para instalar el `Dash to Dock` debemos dirigirnos a `gnome extensions` e instalar:
+
+1. Link Dash to Dock: [DASH TO DOCK](https://extensions.gnome.org/extension/307/dash-to-dock/)
+
+* **Para instalarlo de manera rapida usar el `gnome shell integration` plugin en chrome o su respectivo plugin en otro navegador, ademas de esto debe de instalar el `chrome-gnome-shell` en ubuntu con el siguiente comando:**
+
+```
+$ sudo apt install chrome-gnome-shell
+```
+
+
+### 7. Instalar Blyr
+
+Para instalar el `Blyr` debemos dirigirnos a `gnome extensions` e instalar:
+
+1. Link Blyr: [BLYR](https://extensions.gnome.org/extension/1251/blyr/)
+
+* **Para instalarlo de manera rapida usar el `gnome shell integration` plugin en chrome o su respectivo plugin en otro navegador, ademas de esto debe de instalar el `chrome-gnome-shell` en ubuntu con el siguiente comando:**
+
+```
+$ sudo apt install chrome-gnome-shell
+```
+
+
+### 8. Instalar macOS High Sierra a21 Shell Theme
+
+Para instalar el tema del shell debemos de dirigirnos a `Gnome look` y buscar el tema `macOS High Sierra a21`. El link es el siguiente:
+
+1. Link macOS High Sierra Shell Theme: [MACOS HIGH SIERRA SHELL THEME](https://www.gnome-look.org/p/1213208/)
+
+
+#### Copiar archivos
+
+Despues de descargar los iconos lo debemos de descomprimir y copiar el tema: `MacOS_HS`.
+
+Antes de copiarlos, debemos de crear si no existe un directorio en la carpeta `home` con el nombre `.themes`. Para poder ver archivos ocultos debemos abrir el nautilus (el explorador de archivos de ubuntu) y aplastar la combinacion de teclas: `ctrl` + `h`.
+
+Ahora si copiamos `los archivos` en la carpeta `.themes`
+
+#### Habilitar el tema con Gnome Tweak 
+
+Finalmente buscamos en las actividades (activities o programas) `tweaks` y nos dirijimos a la pestaña **Appearance** y cambiamos en `Themes > Shell` al tema preferido.
+
+#### Copiar fonts en carpeta .local
+
+al descomprimir `MacOS_HS` se nos crean algunas carpetas, una de estas se llama: `FONT` dentro de esta carpeta se encuentran dos archivos, uno **.ttf** y otro **.otf**. Copiar estos dos archivos  a la carpeta :`home > .local > share > fonts`.
+
+#### Ejecutar comandos
+
+Para finalizar con este paso, abre una `terminal` y ejecuta los comandos en **ORDEN**:
+
+1. Mostrar botones a la izquierda
+
+```
+$ gsettings set org.gnome.desktop.wm.preferences button-layout 'close,maximize,minimize:'
+$ gsettings set org.gnome.desktop.wm.preferences button-layout ':close,maximize,minimize'
+```
+
+2. Custom dock indicator
+
+```
+$ gsettings set org.gnome.shell.extensions.dash-to-dock custom-theme-running-dots false
+$ gsettings set org.gnome.shell.extensions.dash-to-dock custom-theme-customize-running-dots false
+```
+
+3. Dock Shrink 
+
+```
+$ gsettings set org.gnome.shell.extensions.dash-to-dock custom-theme-shrink false
+```
+
+4. Dock Transparency 
+
+```
+$ gsettings set org.gnome.shell.extensions.dash-to-dock transparency-mode DEFAULT
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
