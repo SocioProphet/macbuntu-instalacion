@@ -138,8 +138,8 @@ Para finalizar con este paso, abre una `terminal` y ejecuta los comandos en **OR
 1. Mostrar botones a la izquierda
 
 ```
+$ gsettings set org.gnome.shell.extensions.dash-to-dock show-apps-at-top true
 $ gsettings set org.gnome.desktop.wm.preferences button-layout 'close,maximize,minimize:'
-$ gsettings set org.gnome.desktop.wm.preferences button-layout ':close,maximize,minimize'
 ```
 
 2. Custom dock indicator
@@ -162,15 +162,39 @@ $ gsettings set org.gnome.shell.extensions.dash-to-dock transparency-mode DEFAUL
 ```
 
 
+### 9. Cambiar login screen
+
+Para instalar el login screen debemos de dirigirnos a `Gnome look` y buscar el tema `MacOS High Sierra cdm theme`. El link es el siguiente:
+
+1. Link MacOS High Sierra cdm theme: [MACOS HIGH SIERRA cdm theme](MacOS High Sierra cdm theme)
+
+#### Copiar archivos
+
+Despues de descargar los iconos lo debemos de descomprimir y abrir la carpeta: `SetAsWallpaperV1.3`.
+
+Abrir una terminal en la carpeta `SetAsWallpaperV1.3` y ejecutar los siguientes comandos en orden:
+
+1. Copiar css (cambiar los directorios segun la ubicacion
+
+```
+$ sudo cp ubuntu.css /usr/share/gnome-shell/theme/ubuntu.bak
+$ sudo cp ubuntu.css /usr/share/gnome-shell/theme/
+$ sudo chmod 777 /usr/share/backgrounds/
+```
+2. Copiar mediante el explorador de archivos el archivo con nombre `SetAsWallpaper` en la carpeta `home > .local > share > nautilus > scripts`.
+
+3. Cambiar permisos
+```
+$ chmod a+x ~/.share/local/nautilus/scripts/
+```
+
+Finalmente cambiar el wallpaper sobre una imagen con un `click derecho > scripts > SetAsWallpaper`
 
 
+#Creditos 
 
-
-
-
-
-
-
+- Adrian Eguez
+- Shivam ashtikar
 
 
 
