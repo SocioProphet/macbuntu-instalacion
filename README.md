@@ -5,7 +5,7 @@ Instala el tema de Macbuntu, macos en un ubuntu 18.04
 Revisa el link del video en youtube para poder usar o en mega:
 
 1. Link YouTube: [YOUTUBE](https://www.youtube.com/watch?v=sfsKwzElxQg)
-2. Link Mega: [MEGA](https://mega.nz/fm/z4piGQQb)
+2. Link Mega: [MEGA](https://mega.nz/#!e14SDYKZ!kx-KEz7XJ2JRj9J_CEyNABEXaZ-Eh08kdxu1GdM8PLQ)
 
 ## Pasos
 
