@@ -49,7 +49,7 @@ $ sudo apt install chrome-gnome-shell
 
 Para instalar el tema debemos de dirigirnos a `Gnome look` y buscar el tema `Gnome-OSC`. El link es el siguiente:
 
-1. Link Gnome-OSC: [GNOME-OSC](https://www.gnome-look.org/p/1171688/)
+1. Link Gnome-OSC: [GNOME-OSC](https://www.gnome-look.org/p/1171688/) gtk3 theme de ubuntu
 
 #### Copiar archivos
 
