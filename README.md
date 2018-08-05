@@ -47,13 +47,13 @@ $ sudo apt install chrome-gnome-shell
 
 #### Instalar
 
-Para instalar el tema debemos de dirigirnos a `Gnome look` y buscar el tema `Gnome-OSC`. El link es el siguiente:
+Para instalar el tema debemos de dirigirnos a `McOS-themes` y buscar el tema `McOS-themes` en el submenu `GTK3-THEMES`. El link es el siguiente:
 
-1. Link Gnome-OSC: [GNOME-OSC](https://www.gnome-look.org/p/1171688/) gtk3 theme de ubuntu
+1. Link Gnome-OSC: [GNOME-OSC](https://www.gnome-look.org/p/1241688/) gtk3 theme de ubuntu
 
 #### Copiar archivos
 
-Despues de descargar el tema lo debemos de descomprimir y copiar los temas: `Gnome-OSC-HS-(not-transparent)` y `Gnome-OSC-HS-(transparent)`.
+Despues de descargar el tema lo debemos de descomprimir y copiar los temas: `McOS-Mint-Cinnamon-Edition-master`.
 
 Antes de copiarlos, debemos de crear un directorio en la carpeta `home` con el nombre `.themes`. Para poder ver archivos ocultos debemos abrir el nautilus (el explorador de archivos de ubuntu) y aplastar la combinacion de teclas: `ctrl` + `h`.
 
